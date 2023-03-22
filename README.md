@@ -1,8 +1,8 @@
-## Toy Problems
+# Toy Problems
 
 This repository contains solutions to various toy problems. Below are brief descriptions of the problems and their solutions.
 
-#  Challenge 1: Student Grade Generator
+# Challenge 1: Student Grade Generator
 # Problem Description
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond the correct grade, as shown below:
 
@@ -30,3 +30,8 @@ The solution to this problem can be found in the net-salary-calculator.js file.
 
 # Notes
 the rates used in the net salary culculatore may not be correct
+
+# Lisence 
+This repository is licensed under the  `MIT` liscence 
+# Author 
+Erick Kirui
