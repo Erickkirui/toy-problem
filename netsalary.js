@@ -1,7 +1,21 @@
 //Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. 
 //Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
-function calculateNetSalary(basicsalary){
+function calculateNetSalary(basicSalary){
+    // benefits 
+
+    // culculate PAYE
+    if (basicSalary < 24000){
+
+        return payAsYouEarn = (basicSalary * 10/100)
+    }
+    else if (basicSalary > 24000 && basicSalary < 32333){
+
+        return payAsYouEarn = (basicSalary* 25/100)
+    }
+    else {
+     return payAsYouEarn = (basicSalary * 30/100)
+    }
 
     //culculate NHIF deductions 
     if (basicSalary < 5999){
@@ -63,7 +77,7 @@ function calculateNetSalary(basicsalary){
     else if (basicSalary > 90000 && basicSalary < 99999){
         return nhifDeductions = 1300
     }
-    else if (basicSalary > 100000){
+    else {
         return nhifDeductions = 1700
     }
 
