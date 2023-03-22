@@ -10,6 +10,19 @@ function speedDetectorSystem(speed){
     if (speed <= 70){
         return 'OK'
     }
+    // displays the amount of demerit points and suspend lisence
+    else {
+    let demeritPoints = Math.floor((speed - speedLimit) / 5)
 
-    
+    if (demeritPoints >= 12) {
+      return 'License suspended'
+    } else {
+      return `${demeritPoints} demerit points`
+    }
+  }
 }
+
+     
+
+speedDetectorSystem()
+console.log(speedDetectorSystem(100))
