@@ -26,7 +26,7 @@ Problem Description
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
 
 # Solution
-The solution to this problem can be found in the net-salary-calculator.js file.
+The solution to this problem can be found in the netsalary.js file.
 
 # Notes
 the rates used in the net salary culculatore may not be correct
