@@ -2,7 +2,16 @@
 //Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary. 
 
 function calculateNetSalary(basicSalary){
-    // benefits 
+    // culculate benefits
+    let benefits = ""
+    
+    // culculate NSSF Using the old rates
+    let nssfDeduction = (5/100 * grossSalary*2)
+    
+
+    // culculate gross salary 
+    let grossSalary = basicSalary + benefits
+    
 
     // culculate PAYE
     if (basicSalary < 24000){
@@ -18,6 +27,7 @@ function calculateNetSalary(basicSalary){
     }
 
     //culculate NHIF deductions 
+    let nhifDeductions = 0
     if (basicSalary < 5999){
         
         return nhifDeductions = 150
@@ -80,6 +90,8 @@ function calculateNetSalary(basicSalary){
     else {
         return nhifDeductions = 1700
     }
+
+    //
 
 
 
